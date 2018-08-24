@@ -1,9 +1,9 @@
-title: "Jekyll directory"
+title: "Nilsonlinux"
 description: "Community-built themes and plugins to level up your Jekyll experience"
-repository: https://github.com/jekyll/directory
-url: https://jekyll.github.io
+repository: https://github.com/Nilsonsoft/nilsonsoft.github.io
+url: https://nilsonsoft.github.io
 baseurl: /directory
-lang: "en_US"
+lang: "pt_BR"
 
 plugins:
   - jekyll-sitemap
