@@ -2,7 +2,7 @@ title: "Nilsonlinux"
 description: "Community-built themes and plugins to level up your Jekyll experience"
 repository: https://github.com/Nilsonsoft/nilsonsoft.github.io
 url: https://nilsonsoft.github.io
-baseurl: /directory
+baseurl: 
 lang: "pt_BR"
 
 plugins:
