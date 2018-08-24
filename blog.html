@@ -11,7 +11,7 @@ permalink: /blog/
   </div>
   <div class="unit half">
     <h2 class="blog-title"><a href="{{ blog.url | relative_url }}" title="{{ blog.title }}">{{ blog.title }}</a></h2>
-    {{ theme.description | markdownify }}
+    {{ blog.description | markdownify }}
   </div>
 </div>
 {% endfor %}
