@@ -1,7 +1,16 @@
 <ul>
   <li class="{% if page.overview %}current{% endif %}">
-    <a href="{{ "/" | relative_url }}"">Home</a>
+    <a href="{{ "/" | relative_url }}"">Inicio</a>
   </li>
+   <li class="{% if page.url contains '/blog/' %}current{% endif %}">
+    <a href="{{ "/blog" | relative_url }}">Blog</span></a>
+  </li> 
+    <li class="{% if page.url contains '/sobre/' %}current{% endif %}">
+    <a href="{{ "/sobre" | relative_url }}">Sobre</span></a>
+  </li> 
+     <li class="{% if page.url contains '/contatos/' %}current{% endif %}">
+    <a href="{{ "/contatos" | relative_url }}">Contatos</span></a>
+  </li>   
   <li class="{% if page.url contains '/plugins/' %}current{% endif %}">
     <a href="{{ "/plugins" | relative_url }}">Plugins</span></a>
   </li>
