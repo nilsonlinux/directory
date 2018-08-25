@@ -3,7 +3,7 @@ layout: null
 ---
 
 {
-    "themes": [{% for theme in site.blog %}
+    "blog": [{% for theme in site.blog %}
     {
         "title":       "{{ theme.title }}",
         "description": "{{ theme.description | strip_newlines }}",
