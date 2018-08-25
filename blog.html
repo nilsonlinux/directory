@@ -4,7 +4,7 @@ title: Blog Nilsonlinux
 permalink: /blog/
 ---
 
-{% for theme in site.blog %}
+{% for blog in site.blog %}
 <div class="grid {{ page.title | slugify }} center-on-mobiles">
   <div class="unit half">
     <img class="theme-thumbnail" src="{{ site.baseurl }}/assets/img/themes/{{ theme.title }}.jpg" alt=""/>
