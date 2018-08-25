@@ -4,14 +4,15 @@ title: Blog Nilsonlinux
 permalink: /blog/
 ---
 
-{% for blog in site.blog %}
+{% for theme in site.themes %}
 <div class="grid {{ page.title | slugify }} center-on-mobiles">
   <div class="unit half">
-    <img class="blog-thumbnail" src="{{ site.baseurl }}/assets/img/themes/{{ blog.title }}.jpg" alt=""/>
+    <img class="theme-thumbnail" src="{{ site.baseurl }}/assets/img/themes/{{ theme.title }}.jpg" alt=""/>
   </div>
   <div class="unit half">
-    <h2 class="blog-title"><a href="{{ blog.url | relative_url }}" title="{{ blog.title }}">{{ blog.title }}</a></h2>
-    {{ blog.description | markdownify }}
+    <h2 class="theme-title"><a href="{{ theme.url | relative_url }}" title="{{ theme.title }}">{{ theme.title }}</a></h2>
+    {{ theme.description | markdownify }}
   </div>
 </div>
 {% endfor %}
+
